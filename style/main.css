@@ -1,0 +1,21 @@
+@import "/style/component/navbar.css";
+@import "/style/component/breadcrumb.css";
+@import "/style/component/footer.css";
+@import "/style/page/academics.css";
+@import "/style/page/about.css";
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #000d30;
+  --second: #00ca99;
+  --font: #000000;
+  --font-second: #ffff;
+  --font-light: #7a7a7a;
+  --font-hover: #848484;
+}
+
+.page-content {
+  margin-top: 20px;
+}

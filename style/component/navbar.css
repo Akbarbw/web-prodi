@@ -1,0 +1,42 @@
+.navbar-school {
+  position: sticky;
+  height: 130px;
+  background-color: var(--primary);
+}
+
+.nav-link {
+  color: var(--font-second);
+  margin-left: 20px;
+  margin-right: -5px;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: var(--second);
+}
+
+.active {
+  color: var(--second);
+}
+
+.navbar-brand {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin: -0.5em 0 0 0.4em;
+  vertical-align: middle;
+  content: "";
+  border: 0.5em solid;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotateZ(45deg);
+}
+/* .navbar-fixed-top.scrolled {
+  background-color: rgb(148, 63, 63) !important;
+  transition: background-color 200ms linear;
+} */
